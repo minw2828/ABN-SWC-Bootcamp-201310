@@ -1,0 +1,1184 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Language" content="en-us" />
+<title>/swcmelbourne</title>
+<script type="text/javascript">
+//<![CDATA[
+window.__CF=window.__CF||{};window.__CF.AJS={"ga_key":{"ua":"UA-28221532-4","ga_bs":"2"}};
+//]]>
+</script>
+<script type="text/javascript">
+//<![CDATA[
+try{if (!window.CloudFlare) { var CloudFlare=[{verbose:0,p:0,byc:0,owlid:"cf",bag2:0,mirage2:0,oracle:0,paths:{cloudflare:"/cdn-cgi/nexp/abv=2210362828/"},atok:"5862e6bd30356bf65ab23b0aeb1d4090",zone:"dropcanvas.com",rocket:"0",apps:{"ga_key":{"ua":"UA-28221532-4","ga_bs":"2"}}}];var a=document.createElement("script"),b=document.getElementsByTagName("script")[0];a.async=!0;a.src="//ajax.cloudflare.com/cdn-cgi/nexp/abv=2545410587/cloudflare.min.js";b.parentNode.insertBefore(a,b);}}catch(e){};
+//]]>
+</script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-28221532-4']);
+_gaq.push(['_trackPageview']);
+
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+
+(function(b){(function(a){"__CF"in b&&"DJS"in b.__CF?b.__CF.DJS.push(a):"addEventListener"in b?b.addEventListener("load",a,!1):b.attachEvent("onload",a)})(function(){"FB"in b&&"Event"in FB&&"subscribe"in FB.Event&&(FB.Event.subscribe("edge.create",function(a){_gaq.push(["_trackSocial","facebook","like",a])}),FB.Event.subscribe("edge.remove",function(a){_gaq.push(["_trackSocial","facebook","unlike",a])}),FB.Event.subscribe("message.send",function(a){_gaq.push(["_trackSocial","facebook","send",a])}));"twttr"in b&&"events"in twttr&&"bind"in twttr.events&&twttr.events.bind("tweet",function(a){if(a){var b;if(a.target&&a.target.nodeName=="IFRAME")a:{if(a=a.target.src){a=a.split("#")[0].match(/[^?=&]+=([^&]*)?/g);b=0;for(var c;c=a[b];++b)if(c.indexOf("url")===0){b=unescape(c.split("=")[1]);break a}}b=void 0}_gaq.push(["_trackSocial","twitter","tweet",b])}})})})(window);
+/* ]]> */
+</script>
+</head>
+<body><br
+/>Welcome to MoPad!<br
+/><br
+/>This pad text is synchronized as you type, so that everyone viewing this page sees the same text.&nbsp; This allows you to collaborate seamlessly on documents!<br
+/><br
+/>=====<br
+/>Twitter<br
+/>=====<br
+/>Tweet #swcmel: <a href="https://twitter.com/intent/tweet?button_hashtag=swcmel">https://twitter.com/intent/tweet?button_hashtag=swcmel</a><br
+/>Feed #swcmel: <a href="https://twitter.com/search?q=%23swcmel&f=realtime">https://twitter.com/search?q=%23swcmel&amp;f=realtime</a><br
+/><br
+/>====================<br
+/>Dropcanvas Readonly URL<br
+/>====================<br
+/><a href="http://dropcanvas.com/faykm"><u>http://dropcanvas.com/faykm</u></a>&nbsp;<br
+/><br
+/><b>Schedule (</b><a href="http://australianbioinformatics.net/swc-bootcamp)"><b>http://australianbioinformatics.net/swc-bootcamp)</b></a><br
+/>===============================================<br
+/><br
+/><b>Day 1</b><br
+/>09:00-10:15 Python: basics<br
+/><i>10:15-10:30 break</i><br
+/>10:30-12:30 Python: data structures<br
+/><i>12:30-13:00 lunch</i><br
+/>13:00-14:00 Python: control flow<br
+/>14:00-15:00 Python: functions and modules<br
+/><i>15:00-15:15 break</i><br
+/>15:15-16:30 Python: classes and objects<br
+/><br
+/><b>Day 2</b><br
+/>09:00-10:15 testing<br
+/><i>10:15-10:30 break</i><br
+/>10:30-12:30 testing<br
+/><i>12:30-13:00 lunch</i><br
+/>13:00-15:00 version control with git<br
+/><i>15:00-15:15 break</i><br
+/>15:15-16:30 documentation<br
+/><br
+/><b>Day 3</b><br
+/>09:00-10:00 Make<br
+/>10:00-16:30 Collaborative Group Excercise<br
+/><br
+/>What follows are some basic headings to help you find the relevant place underwhich you might like to make notes and underwhich we'll post code etc as we go.<br
+/><br
+/><b>Introduction</b><br
+/><b>=========</b><br
+/><a href="http://software-carpentry.org/">http://software-carpentry.org/</a><br
+/>Recommended reading: <a href="http://software-carpentry.org/biblio.html">http://software-carpentry.org/biblio.html</a><br
+/><br
+/><b>Python: Basics</b><br
+/><b>===========</b><br
+/><br
+/>mkdir bootcamp<br
+/>cd bootcamp<br
+/># in Python you can repeat a string like this:<br
+/>"a" * 100<br
+/><br
+/><br
+/><b>Exercise 1:&nbsp;</b><br
+/><br
+/>Create a file called math_example.py<br
+/><br
+/>* choose a three-digit number, save it as the variable "a"<br
+/>* multiply by 80<br
+/>* add 1<br
+/>* multiply by 250<br
+/>* choose a four-digit number that ends in 0, save it as the variable "b"<br
+/>* add it twice to the result<br
+/>* subtract 250<br
+/>* divide 2<br
+/>* print the result<br
+/><br
+/><b>Example solution:</b><br
+/><br
+/>a = 111<br
+/>a *= 80<br
+/>a += 1<br
+/>a *= 250<br
+/>b = 2220<br
+/>a += 2*b<br
+/>a -= 250<br
+/>a /= 2<br
+/>print a<br
+/><br
+/><br
+/><b>Exercise 2:</b> create a string containing the word "apple" and enough spaces to make the string 20 characters long<br
+/><br
+/><br
+/><b>Example solutions:</b><br
+/><br
+/># ljust: method to pad the end of a string withran<br
+/># spaces<br
+/>a = 'apple'<br
+/>a.ljust(20)<br
+/><br
+/># explicitly adding the correct number of spaces<br
+/># to the end of the string<br
+/>a = 'apple'<br
+/>a + ' '*(20-len(a))<br
+/><br
+/># expandtabs: fills out the tab character ('\t')<br
+/># to make the string a certain width<br
+/>a = 'apple\t'<br
+/>a.expandtabs(20)<br
+/><br
+/>print "%-25s" %a<br
+/><br
+/># if you have others, paste them in here!<br
+/><br
+/><b>Python: Data Structures</b><br
+/><b>=================</b><br
+/><b>Lists</b><br
+/># Lists are defined using square brackets and have ordered values<br
+/>&gt;&gt;&gt; my_list = [1,2,3]<br
+/>&gt;&gt;&gt; my_list == [3,2,1]<br
+/>False<br
+/><br
+/># string methods don't modify strings, but list methods do modify lists<br
+/><br
+/>#sort() acts to sort values of a list in ascending order. Comparisons are performed on the decimal of the ASCII characters (<a href="http://www.asciitable.com/)">http://www.asciitable.com/)</a>. This means integers come before UPPERCASE which come before lowercase:<br
+/>&gt;&gt;&gt; x = ['a', 21,'A', 'ab', 3,49,'a','b']<br
+/>&gt;&gt;&gt; x.sort()<br
+/>&gt;&gt;&gt; x<br
+/>[3, 21, 49, 'A', 'a', 'a', 'ab', 'b']<br
+/># You can use range() to generate a range of numbers<br
+/>&gt;&gt;&gt; range(10)<br
+/>[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]<br
+/># a range from 3 to 10<br
+/>&gt;&gt;&gt; range(3,10)<br
+/>[3, 4, 5, 6, 7, 8, 9]<br
+/># With step-size 2<br
+/>&gt;&gt;&gt; range(3,10,2)<br
+/>[3, 5, 7, 9]<br
+/><br
+/>Two dimensional sorting:<br
+/>z = [[4,3,2,1],[8,7,6,5]]<br
+/>map(lambda x: x.sort(), z)<br
+/><br
+/># a while loop is a good way to remove all instances of a value in a list - no specific method to do this<br
+/><br
+/>#example of the string method str.join()<br
+/>result = ','.join(['apple', 'banana'])<br
+/>result<br
+/># gives 'apple,banana'<br
+/><br
+/># Here's how you can parse command line arguments to Python scripts<br
+/># The first element (index 0) of sys.argv is the name of the script itself<br
+/>import sys<br
+/><br
+/>print sys.argv<br
+/><br
+/><b>Excercise 3</b><br
+/><br
+/>write a program that takes a list of three or more words on the command line<br
+/><br
+/>print those words, in alphabetical order, separated by commas, with the final word preceded by "and" and a period at the end.<br
+/><br
+/>e.g. python my_program.py apple strawberry banana cherry<br
+/>apple, banana, cherry, and strawberry.<br
+/><br
+/>bonus: capitalize the first letter of the sentence:<br
+/>e.g. python my_program.py apple strawberry banana cherry<br
+/>Apple, banana, cherry, and strawberry.<br
+/><br
+/><b>capitalization solutions:</b><br
+/><br
+/>sentence = sentence.capitalize()<br
+/>words[0] = words[0].title()<br
+/>sentence = sentence[0].upper() + sentence[1:]<br
+/><br
+/><br
+/><br
+/># step 1: get the list of arguments<br
+/>import sys<br
+/><br
+/>words = sys.argv[1:]<br
+/><br
+/># step 2: sort the list<br
+/>words.sort()<br
+/><br
+/># step 3: get the last word<br
+/>last_word = words[-1]<br
+/><br
+/># step 4: make a new list without the last word<br
+/>all_but_last_word = words[:-1]<br
+/><br
+/># step 5: join the sentence together using commas<br
+/>sentence = ', '.join(all_but_last_word)<br
+/><br
+/># step 6: add "and" and the final word<br
+/>sentence += ', and ' + last_word + '.'<br
+/><br
+/># step 7: output the result<br
+/>sentence = sentence[0].upper() + sentence[1:]<br
+/>print sentence<br
+/><br
+/># Enable tab completion in the Python interpreter<br
+/># Source: <a href="http://docs.python.org/release/2.5.2/lib/module-rlcompleter.html">http://docs.python.org/release/2.5.2/lib/module-rlcompleter.html</a><br
+/>try:<br
+/>&nbsp;&nbsp;&nbsp; import readline<br
+/>except ImportError:<br
+/>&nbsp;&nbsp;&nbsp; print "Module readline not available."<br
+/>else:<br
+/>&nbsp;&nbsp;&nbsp; import rlcompleter<br
+/>&nbsp;&nbsp;&nbsp; readline.parse_and_bind("tab: complete")<br
+/># ensure you add a couple of returns here. Copy-and-paste from Etherpad doesn't seem to play nicely<br
+/>x = [1,2,3]<br
+/>x.&lt;tab&gt;&lt;tab&gt;<br
+/><br
+/><b>Sets</b><br
+/>sets more efficient than lists - can find values more quickly<br
+/><br
+/><b>Exercise 4</b><br
+/><br
+/>given a string which is a sentence "Apple, banana, and cherry."<br
+/>find out how many unique letters A-Z that sentence contains in a case-insensitive way<br
+/>(i.e. upper and lower case should not be double counted!)<br
+/><br
+/>extra credit: given *two* sentences, find out how many letters<br
+/>they have in common (A-Z) and how many letters are unique<br
+/>to each sentence<br
+/><br
+/><b>solution</b><br
+/><br
+/># get your input sentence<br
+/>import sys<br
+/>import string<br
+/>my_sentence = "Jenny, Perry, and Winifred are the names of three cats."<br
+/><br
+/>my_sentence = my_sentence.lower()<br
+/><br
+/>characters = set(my_sentence)<br
+/>alphabet = string.lowercase<br
+/>letters = characters.intersection(alphabet)<br
+/><br
+/>print len(letters)<br
+/><br
+/><br
+/><b>Extra credit solution</b><br
+/><br
+/>import sys<br
+/>import string<br
+/><br
+/># one character in common,&nbsp;<br
+/># sentence 1 has 1 unique character<br
+/># sentence 2 has 2 unique characters<br
+/>sentence_1 = "She sells seashells by the seashore."<br
+/>sentence_2 = "Someone yell out a sentence?"<br
+/>alphabet = string.lowercase<br
+/><br
+/>sentence_1 = sentence_1.lower()<br
+/>characters_1 = set(sentence_1)<br
+/>letters_1 = characters_1.intersection(alphabet)<br
+/><br
+/>sentence_2 = sentence_2.lower()<br
+/>characters_2 = set(sentence_2)<br
+/>letters_2 = characters_2.intersection(alphabet)<br
+/><br
+/>common = letters_1.intersection(letters_2)<br
+/>print len(common)<br
+/>print len(letters_1) - len(common)<br
+/>print len(letters_2) - len(common)<br
+/><br
+/><br
+/><b>Dictionaries</b><br
+/>Dictionaries contain key-value pairs, where keys are unique. In Python dictionaries can be defined using curly-braces. Looking up keys in a dictionary is really fast<br
+/>&gt;&gt;&gt; my_dictionary = {'key1': 'value1', 'key2': 'value2', 'key3': 20}<br
+/>&gt;&gt;&gt; my_dictionary<br
+/>{'key3': 20, 'key2': 'value2', 'key1': 'value1'}<br
+/># Adding a new key-value pair can be accomplished by:<br
+/>&gt;&gt;&gt; my_dictionary['G'] = value<br
+/><br
+/><b>Excercise 5</b><br
+/>take an input DNA sequence<br
+/>and create a dictionary containing the base counts<br
+/>Valid bases are:<br
+/>(GATC)<br
+/><br
+/>e.g.: {'G': 5, 'A': 3} ...<br
+/><br
+/>extra credit: compute the GC-content of the sequence<br
+/>GC content = the proportion of bases that are either G or C (number from 0 to 1)<br
+/><br
+/>extra credit 2: write a script that works for *either* DNA or RNA sequences, depending on the input<br
+/><br
+/>RNA valid bases: GAUC<br
+/><br
+/><br
+/><b>Solution</b><br
+/><br
+/>sequence = "GTGTACGTACGGACAACTAGCAACACGTGCACAC"<br
+/>is_rna = False<br
+/>if 'U' in sequence:<br
+/>&nbsp;&nbsp;&nbsp; is_rna = True<br
+/>sequence = sequence.replace('U', 'T')<br
+/><br
+/>g = sequence.count('G')<br
+/>a = sequence.count('A')<br
+/>t = sequence.count('T')<br
+/>c = sequence.count('C')<br
+/><br
+/>base_counts = {'G': g, 'A': a, 'T': t, 'C': c}<br
+/><br
+/>total_length = g+a+t+c<br
+/>gc_content = (g+c)/float(total_length) * 100<br
+/><br
+/>base_counts['U'] = base_counts['T']<br
+/>del base_counts['T']<br
+/><br
+/>print gc_content<br
+/><br
+/><br
+/><b>Python: Flow Control</b><br
+/><b>===============</b><br
+/>&nbsp;<u>Slides available in PDF format at </u><a href="http://dropcanvas.com/faykm"><u>http://dropcanvas.com/faykm</u></a>&nbsp;<br
+/>&nbsp;<br
+/><br
+/><b>Exercise1: if/else statement</b><br
+/><br
+/>Write some python code that checks if a given number (entered from the command line) is odd or even.&nbsp; The script accepts a single integer parameter and checks if it's an even or odd number.&nbsp; If even, it prints "Even" and if odd, it prints "Odd".<br
+/><br
+/>hint. you'll need to read the command line arguments.<br
+/>import sys<br
+/>int =(some mechanism to convert a string to an integer) ( sys.argv[1])<br
+/><br
+/>No need to check for erroneous input!<br
+/><br
+/><b>Exercise 2: More complex if statements</b><br
+/>Write a python code that accepts a single integer,<br
+/><ul><li>if the number is less than 50 and greater than 0 print “Minor”</li
+><li>if the number is greater than or equal to 50 and less than 1000 print “Major”</li
+><li>Otherwise prints "Severe"<br/><br
+/></li></ul
+>Hint. Logical "and"s make sense here rather than lots of if/elif statements. But both ways will work correctly.<br
+/><br
+/><b>Exercise 3:</b><br
+/>Repetition:<br
+/><br
+/>for loop - different from C, Java - arithmetic progression of numbers.<br
+/>python for loop iterates over items of any sequence (list or string).<br
+/><br
+/>Exercise: Add the contents of the following list by looping over them<br
+/>scores = [85.0, 75.0, 95.0, 110.0, 56.0]<br
+/><br
+/><br
+/><br
+/><b>Exercise 4: loops and files</b><br
+/><br
+/>(1) Get a copy of SwissProt, an annotated Protein Database. On the shell command line type:<br
+/>wget <a href="ftp://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/uniprot_sprot.fasta.gz">ftp://<u>ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/uniprot_sprot.fasta.gz</u></a><br
+/>&nbsp;(or look at drop canvas <a href="http://dropcanvas.com/faykm"><u>http://dropcanvas.com/faykm</u></a> )<br
+/>&nbsp;<br
+/>Wget is a free software package for retrieving files using HTTP, HTTPS and FTP<br
+/>&nbsp;<br
+/>&nbsp;gunzip uniprot_sprot.fasta.gz<br
+/><br
+/>(2) Use the unix ‘head’ command to view top of file. The format is known as FASTA <a href="http://en.wikipedia.org/wiki/FASTA_format"><u>http://en.wikipedia.org/wiki/FASTA_format</u></a><br
+/><br
+/>(3) Write a Python script that<br
+/>-opens the file<br
+/>-reads each line of the file<br
+/>-if the first character of the line is a ‘&gt;’ character AND the protein is a Human one (i..e contains the string “OS=Homo sapiens” then count the number of lines<br
+/>-at end , print out the number of human proteins inside SwissProt<br
+/><br
+/>To do this you will need:<br
+/>-some kind of loop to read each line of the file. What termination condition should you use?<br
+/>- a simple way to check if a string contains a substring. The syntax "substr <b>in</b> str"&nbsp; returns true if <b>subsr</b> is found in <b>str.</b> There are also other ways to do this..<br
+/>-one or more conditional statements to isolate the Human description lines<br
+/><br
+/><b>Python: Functions and Modules</b><br
+/><b>=======================</b><br
+/><br
+/><br
+/><b>Exercise 1:</b><br
+/><br
+/>write a function that calculates the factorial of an integer<br
+/><br
+/># N factorial = N * (N-1) * (N-2) ... to 1<br
+/><br
+/>def factorial(n):<br
+/>&nbsp;&nbsp;&nbsp; # ...do something...<br
+/>&nbsp;&nbsp;&nbsp; return #n factoral<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;<br
+/>0.5<br
+/>extra credit: write a function that calculates the<br
+/>Nth fibonacci number<br
+/><br
+/>fib(N) = fib(N-1) + fib(N-2)<br
+/><br
+/>1, 1, 2, 3, 5, 8, 13...<br
+/><br
+/><br
+/>start time: 2:24<br
+/>Time estimates: mean=7min, median=9min<br
+/><br
+/># recursive solution<br
+/>def factorial(n):<br
+/>&nbsp;&nbsp;&nbsp; if n &lt;= 1:<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return 1<br
+/>&nbsp;&nbsp;&nbsp; else:<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return n * factorial(n-1)<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br
+/><br
+/># while loop solution<br
+/>def factorial(n):<br
+/>&nbsp;&nbsp;&nbsp; total = 1<br
+/>&nbsp;&nbsp;&nbsp; while n &gt; 1:<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; total *= n<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; n -= 1<br
+/>&nbsp;&nbsp;&nbsp; return total<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;<br
+/># for loop solution<br
+/>def factorial(n):<br
+/>&nbsp;&nbsp;&nbsp; total = 1<br
+/>&nbsp;&nbsp;&nbsp; for i in range(1,n+1):<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; total *= i<br
+/>&nbsp;&nbsp;&nbsp; return total<br
+/><br
+/>def fibonacci(n):<br
+/>&nbsp;&nbsp;&nbsp; a, b = 0, 1<br
+/>&nbsp;&nbsp;&nbsp; while n &gt; 0:<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a, b = b, a+b<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; n -= 1<br
+/>&nbsp;&nbsp;&nbsp; return a<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;<br
+/><br
+/>def base_count(sequence, base):<br
+/>&nbsp;&nbsp;&nbsp; return sequence.count(base)<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;<br
+/>def gc_content(sequence):<br
+/>&nbsp;&nbsp;&nbsp; return (base_count(sequence, 'G') +&nbsp;<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; base_count(sequence, 'C')) / float(len(sequence))<br
+/><br
+/>def count_bases(arg):<br
+/>&nbsp;&nbsp;&nbsp; import string<br
+/>&nbsp;&nbsp;&nbsp; seq = arg.upper()<br
+/>&nbsp;&nbsp;&nbsp; alphabet = string.uppercase<br
+/>&nbsp;&nbsp;&nbsp; base_dict = {}<br
+/>&nbsp;&nbsp;&nbsp; for letter in alphabet:<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; if letter in seq:<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; count = seq.count(letter)<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; base_dict[letter] = count<br
+/>&nbsp;&nbsp;&nbsp; # returns a list of tuples with each base and its occurrence<br
+/>&nbsp;&nbsp;&nbsp; return base_dict.items()<br
+/><br
+/><br
+/><br
+/><b>Python: Classes and Objects</b><br
+/><b>=====================</b><br
+/><br
+/>A1083,20<br
+/>A2085,16.1<br
+/>B1862,18.3<br
+/>A1083,24.2<br
+/>B1862,17.5<br
+/>A1083,22<br
+/>C1084,19<br
+/>A1085,20<br
+/>A1083,21.2<br
+/>C1084,20.1<br
+/>A1085,21.8<br
+/>A1084,21.4<br
+/>A1083,21<br
+/>C1084,20<br
+/>A1085,22<br
+/>A2083,18<br
+/>B1861,12.3<br
+/>A1084,21.3<br
+/>B1865,19.5<br
+/>A1081,23<br
+/>C1084,17<br
+/><br
+/><br
+/>rodents.py:<br
+/><br
+/><br
+/>class Rodent:<br
+/>&nbsp;&nbsp;&nbsp; def __init__(self, tag_id):<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; self.tag_id = tag_id<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; self.weights = []<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;<br
+/>&nbsp;&nbsp;&nbsp; def plot(self):<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return self.tag_id[0]<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;<br
+/>&nbsp;&nbsp;&nbsp; def add_weight(self, weight):<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; self.weights.append(weight)<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br
+/>x = Rodent('abc')<br
+/><br
+/><br
+/><br
+/><br
+/>from rodents import Rodent<br
+/><br
+/>rodents = {}<br
+/><br
+/>for line in file:<br
+/>&nbsp;&nbsp;&nbsp; # check to see whether the tag_id is in my dictionary<br
+/>&nbsp;&nbsp;&nbsp; # if it is,<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; # add the new weight<br
+/>&nbsp;&nbsp;&nbsp; # if not,<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; # create a new rodent object<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; # add the new weight<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br
+/><br
+/>Solution:<br
+/><br
+/>from rodents import Rodent<br
+/><br
+/>rodents = {}<br
+/><br
+/>file = open('rodents.csv')<br
+/>for line in file:<br
+/>&nbsp;&nbsp;&nbsp; tag_id, weight = line.split(',')<br
+/>&nbsp;&nbsp;&nbsp; if tag_id not in rodents:<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; rodents[tag_id] = Rodent(tag_id)<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; rodents[tag_id].add_weight(weight)<br
+/>&nbsp;&nbsp;&nbsp; else:<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; rodents[tag_id].add_weight(weight)<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br
+/>file.close()<br
+/><br
+/>print rodents<br
+/>for key in rodents:<br
+/>&nbsp;&nbsp;&nbsp; print rodents[key].tag_id, rodents[key].weights<br
+/><br
+/><br
+/>Create a class DNASequence<br
+/><br
+/><br
+/>class DNASequence:<br
+/>&nbsp;&nbsp;&nbsp; def __init__(self, sequence):<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; self.sequence = sequence<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;<br
+/>&nbsp;&nbsp;&nbsp; def base_count(self, base):<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; pass<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;<br
+/>&nbsp;&nbsp;&nbsp; def gc_content(self):<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; pass<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br
+/>&nbsp;&nbsp;&nbsp; # extra credit<br
+/>&nbsp;&nbsp;&nbsp; def reverse_complement(self):<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; # reverse the sequence,<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; # then change G&lt;-&gt;C, A&lt;-&gt;T<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; pass<br
+/><br
+/><br
+/><br
+/>import string<br
+/><br
+/>class DNASequence:<br
+/>&nbsp;&nbsp;&nbsp; def __init__(self, sequence):<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; self.sequence = sequence<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; self.base_counts = {}<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;<br
+/>&nbsp;&nbsp;&nbsp; def base_count(self, base):<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; if base in self.base_counts:<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return self.base_counts[base]<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; else:<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; count = self.sequence.count(base)<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; self.base_counts[base] = count<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return count<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;<br
+/>&nbsp;&nbsp;&nbsp; def gc_content(self):<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; '''Given a sequence returns the fraction of the bases that are G or C.'''<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; g = self.base_count('G')<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c = self.base_count('C')<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return float(g+c)/len(self.sequence)<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br
+/>&nbsp;&nbsp;&nbsp; def reverse_complement(self):<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; '''Given a sequence return the reverse complement of that sequence'''<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; complements = {'G': 'C',<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 'C': 'G',<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 'A': 'T',<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 'T': 'A'}<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; rev_c = ""<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; for base in self.sequence:<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; rev_c = complements[base] + rev_c<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return rev_c<br
+/><br
+/><br
+/><br
+/><b>Testing: Part 1</b><br
+/><b>===========</b><br
+/><br
+/>class inheritance<br
+/><br
+/># can let us create more general classes, and specific instances of the functionality we want<br
+/><br
+/>class MyList(list):<br
+/>&nbsp;&nbsp;&nbsp; def reverse_sort(self):<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; self.sort()<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; self.reverse()<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br
+/><br
+/>class NucleotideSequence:<br
+/>&nbsp;&nbsp;&nbsp; '''An abstract class which is inherited by<br
+/>&nbsp;&nbsp;&nbsp; DNA and RNA sequences. Do not use!'''<br
+/>&nbsp;&nbsp;&nbsp; '''A general nucleotide class. The class is inherited by DNASequence<br
+/>&nbsp;&nbsp;&nbsp; and RNASequence classes. Not for general use. Use DNASequence and<br
+/>&nbsp;&nbsp;&nbsp; RNASequence instead'''<br
+/>&nbsp;&nbsp;&nbsp; complements = {'G': 'C',<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 'C': 'G',<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 'A': 'T',<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 'T': 'A'}<br
+/>&nbsp;&nbsp;&nbsp; valid = set(complements)<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;<br
+/>&nbsp;&nbsp;&nbsp; def __init__(self, sequence):<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; '''Input sequence should be a string,<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; in all upper case letters.'''<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; assert isinstance(sequence, str)<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; assert len(sequence) &gt; 0<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; sequence = sequence.upper()<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; assert set(sequence).difference(self.valid) == set()<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; self.sequence = sequence<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; self.base_counts = {}<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;<br
+/>&nbsp;&nbsp;&nbsp; def base_count(self, base):<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; '''Given a base, returns the number of<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; times the base occurs in this sequence.<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Returns an integer.<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; '''<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; assert isinstance(base, str)<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; assert len(base) == 1<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; assert base in self.valid<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; if base in self.base_counts:<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; # blah blah<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return self.base_counts[base]<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; else:<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; # blah blah<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; count = self.sequence.count(base)<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; self.base_counts[base] = count<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return count<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;<br
+/>&nbsp;&nbsp;&nbsp; def gc_content(self):<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; '''Returns the GC ratio in given sequence'''<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; '''returns the proportion of residues&nbsp;<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; that are either G or C in the sequence,<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; from 0 to 1'''<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; '''This calculates the percentage of GC in the<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; sequence'''<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; g = self.base_count('G')<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c = self.base_count('C')<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return float(g+c)/len(self.sequence)<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br
+/>&nbsp;&nbsp;&nbsp; def reverse_complement(self):<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ''''Given a sequence returns a reverse complement of the sequence given'''<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; '''Takes a sequence as input, reverses that sequence and then&nbsp;<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; complemenents it (G's become C's, A's become T's, etc), then returns<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; the new sequence.'''<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; rev_c = ""<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; for base in self.sequence:<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; rev_c = self.complements[base] + rev_c<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return rev_c<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br
+/>class DNASequence(NucleotideSequence):<br
+/>&nbsp;&nbsp;&nbsp; '''Uses the bases GATC.'''<br
+/>&nbsp;&nbsp;&nbsp; '''Class appropriate for DNA sequences. Assumes only A,T,C and G are found in the sequence.'''<br
+/><br
+/>&nbsp;&nbsp;&nbsp;&nbsp;<br
+/>class RNASequence(NucleotideSequence):<br
+/>&nbsp;&nbsp;&nbsp; '''Uses the bases GAUC.'''<br
+/>&nbsp;&nbsp;&nbsp; complements = {'G': 'C',<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 'C': 'G',<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 'A': 'U',<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 'U': 'A'}<br
+/>&nbsp;&nbsp;&nbsp; valid = set(complements)<br
+/><br
+/><br
+/><a href="http://software-carpentry.org/blog/2013/09/how-much-testing-is-enough.html">http://software-carpentry.org/blog/2013/09/how-much-testing-is-enough.html</a><br
+/><br
+/><a href="http://science.slashdot.org/story/13/09/20/2356211/software-glitch-means-loss-of-nasas-deep-impact-comet-probe">http://science.slashdot.org/story/13/09/20/2356211/software-glitch-means-loss-of-nasas-deep-impact-comet-probe</a><br
+/><br
+/>function that compares two 7-digit phone numbers<br
+/><br
+/>123-4567 890-1234<br
+/>123-4567 890-1235<br
+/><br
+/>(10^7)^2 = 10^14<br
+/><br
+/>function that compares two rectangles<br
+/><br
+/><br
+/><br
+/>import math<br
+/><br
+/>def fibonacci(n):<br
+/>&nbsp;&nbsp;&nbsp; assert n &gt;= 0<br
+/>&nbsp;&nbsp;&nbsp; assert isinstance(n, int)<br
+/>&nbsp;&nbsp;&nbsp; a, b = 0, 1<br
+/>&nbsp;&nbsp;&nbsp; while n &gt; 0:<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a, b = b, a+b<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; n -= 1<br
+/>&nbsp;&nbsp;&nbsp; return a<br
+/><br
+/><br
+/>tests = [<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [0, 0],<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [1, 1],<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [2, 1],<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [3, 2],<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [5, 5],<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ]<br
+/>for input, expected_result in tests:<br
+/>&nbsp;&nbsp;&nbsp; assert fibonacci(input) == expected_result<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;<br
+/><br
+/><br
+/>Exercise: write assertion tests for all of the methods in the NucleotideSequence class<br
+/><br
+/><br
+/><b>Testing: Part 2</b><br
+/><b>===========</b><br
+/><br
+/><br
+/>import doctest<br
+/><br
+/><br
+/>def factorial(n):<br
+/>&nbsp;&nbsp;&nbsp; '''factorial(n) = n*factorial(n-1)<br
+/>&nbsp;&nbsp;&nbsp; factorial(0) = 1<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;<br
+/>&nbsp;&nbsp;&nbsp; n should be an integer<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;<br
+/>&nbsp;&nbsp;&nbsp; &gt;&gt;&gt; factorial(0)<br
+/>&nbsp;&nbsp;&nbsp; 1<br
+/>&nbsp;&nbsp;&nbsp; &gt;&gt;&gt; factorial(1)<br
+/>&nbsp;&nbsp;&nbsp; 1<br
+/>&nbsp;&nbsp;&nbsp; &gt;&gt;&gt; factorial(4)<br
+/>&nbsp;&nbsp;&nbsp; 24<br
+/>&nbsp;&nbsp;&nbsp; '''<br
+/>&nbsp;&nbsp;&nbsp; if not isinstance(n, int):<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; raise Exception("Input to factorial() function must be an integer")<br
+/>&nbsp;&nbsp;&nbsp; if n &lt; 0:<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; raise Exception("Factorial for negative numbers is not defined")<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;<br
+/>&nbsp;&nbsp;&nbsp; total = 1<br
+/>&nbsp;&nbsp;&nbsp; for i in range(1,n+1):<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; total *= i<br
+/>&nbsp;&nbsp;&nbsp; return total<br
+/><br
+/><br
+/>def fibonacci(n):<br
+/>&nbsp;&nbsp;&nbsp; '''Returns the Nth value in the Fibonacci<br
+/>&nbsp;&nbsp;&nbsp; sequence<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;<br
+/>&nbsp;&nbsp;&nbsp; F(N) = F(N-1) + F(N-2)<br
+/>&nbsp;&nbsp;&nbsp; F(0) = 0, F(1) = 1<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;<br
+/>&nbsp;&nbsp;&nbsp; &gt;&gt;&gt; fibonacci(0)<br
+/>&nbsp;&nbsp;&nbsp; 0<br
+/>&nbsp;&nbsp;&nbsp; &gt;&gt;&gt; fibonacci(1)<br
+/>&nbsp;&nbsp;&nbsp; 1<br
+/>&nbsp;&nbsp;&nbsp; &gt;&gt;&gt; fibonacci(2)<br
+/>&nbsp;&nbsp;&nbsp; 1<br
+/>&nbsp;&nbsp;&nbsp; &gt;&gt;&gt; fibonacci(5)<br
+/>&nbsp;&nbsp;&nbsp; 5<br
+/>&nbsp;&nbsp;&nbsp; '''<br
+/>&nbsp;&nbsp;&nbsp; assert n &gt;= 0<br
+/>&nbsp;&nbsp;&nbsp; assert isinstance(n, int)<br
+/>&nbsp;&nbsp;&nbsp; a, b = 0, 1<br
+/>&nbsp;&nbsp;&nbsp; while n &gt; 0:<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a, b = b, a+b<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; n -= 1<br
+/>&nbsp;&nbsp;&nbsp; return a<br
+/><br
+/><br
+/># only run this block if we're<br
+/># executing this script directly;<br
+/># don't run if importing!<br
+/>if __name__ == "__main__":<br
+/>&nbsp;&nbsp;&nbsp; doctest.testmod()<br
+/><br
+/><br
+/><b>Exercise: </b>for the factorial function,<br
+/>* write an informative docstring<br
+/>* write a set of doctests in the docstring that test for all of the edge cases you can think of to be confident that your function is working<br
+/><br
+/><br
+/><br
+/><br
+/>file_name = "test.csv"<br
+/>default_file = "rodents.csv"<br
+/><br
+/>try:<br
+/>&nbsp;&nbsp;&nbsp; file = open(file_name)<br
+/>except IOError as e:<br
+/>&nbsp;&nbsp;&nbsp; print e<br
+/>&nbsp;&nbsp;&nbsp; file = open(default_file)<br
+/>except:<br
+/>&nbsp;&nbsp;&nbsp; print 'There was some other problem'<br
+/>&nbsp;&nbsp;&nbsp; raise<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;<br
+/>print file.readline()<br
+/><br
+/><br
+/>Step 1: if the user tries to create a NucleotideSequence that contains invalid bases, raise an exception that tells them what the problem was<br
+/><br
+/>extra credit: write a script that takes user input and creates a DNASequence - if the input is not a valid sequence, then keep trying until it is<br
+/><br
+/><br
+/>to get user input:<br
+/><br
+/>x = raw_input("Enter your input here: ")<br
+/><br
+/><br
+/><br
+/>class InvalidBaseException(Exception):<br
+/>&nbsp;&nbsp;&nbsp; pass<br
+/>class ZeroLengthSequenceException(Exception):<br
+/>&nbsp;&nbsp;&nbsp; pass<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;<br
+/>raise InvalidBaseException()<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;<br
+/>try:<br
+/>&nbsp;&nbsp;&nbsp; # do something<br
+/>&nbsp;&nbsp;&nbsp; pass<br
+/>except InvalidBaseException:<br
+/>&nbsp;&nbsp;&nbsp; pass<br
+/>except ZeroLengthSequenceException:<br
+/>&nbsp;&nbsp;&nbsp; pass<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;<br
+/><br
+/>class NucleotideSequence:<br
+/>&nbsp;&nbsp;&nbsp; '''An abstract class which is inherited by<br
+/>&nbsp;&nbsp;&nbsp; DNA and RNA sequences. Do not use!'''<br
+/>&nbsp;&nbsp;&nbsp; complements = {'G': 'C',<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 'C': 'G',<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 'A': 'T',<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 'T': 'A'}<br
+/>&nbsp;&nbsp;&nbsp; valid = set(complements)<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;<br
+/>&nbsp;&nbsp;&nbsp; def __init__(self, sequence):<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; self.sequence = sequence<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; self.base_counts = {}<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; if set(sequence).difference(self.valid) != set():<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; raise InvalidBaseException("Invalid base; bases: " + ''.join(set(sequence).difference(self.valid)))<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;<br
+/>&nbsp;&nbsp;&nbsp; def base_count(self, base):<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; '''Given a base, returns the number of<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; times the base occurs in this sequence.<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Returns an integer.<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; '''<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; if base in self.base_counts:<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; # blah blah<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return self.base_counts[base]<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; else:<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; # blah blah<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; count = self.sequence.count(base)<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; self.base_counts[base] = count<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return count<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;<br
+/>&nbsp;&nbsp;&nbsp; def gc_content(self):<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; g = self.base_count('G')<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c = self.base_count('C')<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return float(g+c)/len(self.sequence)<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br
+/>&nbsp;&nbsp;&nbsp; def reverse_complement(self):<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; rev_c = ""<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; for base in self.sequence:<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; rev_c = self.complements[base] + rev_c<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return rev_c<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br
+/>class DNASequence(NucleotideSequence):<br
+/>&nbsp;&nbsp;&nbsp; '''Uses the bases GATC.'''<br
+/>&nbsp;&nbsp;&nbsp; pass<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;<br
+/>class RNASequence(NucleotideSequence):<br
+/>&nbsp;&nbsp;&nbsp; '''Uses the bases GAUC.'''<br
+/>&nbsp;&nbsp;&nbsp; complements = {'G': 'C',<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 'C': 'G',<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 'A': 'U',<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 'U': 'A'}<br
+/>&nbsp;&nbsp;&nbsp; valid = set(complements)<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br
+/>&nbsp;&nbsp;&nbsp; def __init__(self, sequence):<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; NucleotideSequence.__init__(self, sequence)<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; assert not 'T' in sequence<br
+/><br
+/><br
+/><br
+/><br
+/><br
+/>from dna_sequence import DNASequence, RNASequence<br
+/><br
+/>def enter_seq():<br
+/>&nbsp;&nbsp;&nbsp; x = ''<br
+/>&nbsp;&nbsp;&nbsp; while x == '':<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; try:<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; x = DNASequence(raw_input('Enter DNA sequence: '))<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; except:<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; pass<br
+/>&nbsp;&nbsp;&nbsp; return x<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;<br
+/>print enter_seq()<br
+/><br
+/><br
+/><b>Version Control with Git</b><br
+/><b>=================</b><br
+/><br
+/>Slides for an introduction to Git: <a href="http://karthikram.github.io/git_intro/">http://karthikram.github.io/git_intro/</a><br
+/>Configure your Git: <a href="http://karthikram.github.io/git_intro/#/configuration">http://karthikram.github.io/git_intro/#/configuration</a> (but do replace my name and email with yours before configuring).<br
+/>Note: You can also add other editors if you are not using gedit. Other options:<br
+/><ul><li>&nbsp;&nbsp;&nbsp; "vi"&nbsp;</li
+><li>&nbsp;&nbsp;&nbsp; "nano"&nbsp;</li
+><li>&nbsp;&nbsp;&nbsp; "kate"</li
+><li>&nbsp;&nbsp;&nbsp; "subl -n -w' for sublime text.</li></ul
+>Set up some aliases:&nbsp;&nbsp; <a href="http://karthikram.github.io/git_intro/#/aliases">http://karthikram.github.io/git_intro/#/aliases</a><br
+/><br
+/>git config --global alias.ls 'log --pretty=format:"%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)[%an]%Creset" --abbrev-commit'<br
+/><br
+/><br
+/><b>Basic Git commands:</b><br
+/><br
+/><ul><li>git init (will initialize a new Git repository inside a folder. It also affects all files and subfolders within. Only required once per project. Projects are managed at a folder level).</li
+><li>git status (will show you the current state of the repository. You'll use this all the time).</li
+><li>git show-branch (see recent commits from branches).</li
+><li>git checkout (switch branches, or grab files from earlier commits)</li
+><li>git add (stage files ready for committing)</li
+><li>git commit (commit files into Git's memory with a useful message)</li
+><li>git branch (list branches, create them or delete existing ones)</li
+><li>git push (sync changes with a remote repository)</li
+><li>git pull (sync changes from a remote to a local repository)</li
+><li>git merge (merge changes between branches)</li
+><li>git diff (show changes between current file and most recent commit).</li
+><li>git log (see detailed logs. Using the aliases defined above, you can see shorter one-line logs and also branch activity).<br/><br
+/></li></ul
+>There are many more commands in Git but if you master this set it should serve you well for a long time.<br
+/><br
+/><br
+/>Clone the repo from your neighbor using:<br
+/>git clone &lt;url of neighbors repo&gt;<br
+/>Ask then to add you as a collaborator by clicking settings o<br
+/><br
+/><br
+/><b>Practicing Git branching</b><br
+/><a href="http://pcottle.github.io/learnGitBranching/?NODEMO">http://pcottle.github.io/learnGitBranching/?NODEMO</a><br
+/>In the demo you won't have to add files so just go on comitting. Remove ?NODEMO if you want more instructions. It's a great resource for both beginners and advanced users.<br
+/><br
+/><b>Additional Git resources</b><br
+/>* The official site for the Git (open source project. Not to be confused with GitHub). <a href="http://git-scm.com/">http://git-scm.com/</a><br
+/>Read the entire e-book on Git for free here: <a href="http://git-scm.com/book">http://git-scm.com/book</a><br
+/>If you feel the need to use Git outside of the command line, there are many guis availalable for different platforms. <a href="http://git-scm.com/downloads/guis">http://git-scm.com/downloads/guis</a><br
+/><br
+/>* A sample gitconfig file with more aliases (rename to .gitconfig and replace with right credentials):&nbsp;<br
+/><a href="https://github.com/swcarpentry/boot-camps/blob/2013-09-bristol/version-control/sample.gitconfig">https://github.com/swcarpentry/boot-camps/blob/2013-09-bristol/version-control/sample.gitconfig</a><br
+/><br
+/>* Longer explanation on ignore files: <a href="https://help.github.com/articles/ignoring-files">https://help.github.com/articles/ignoring-files</a><br
+/>* A whole set of example ignore files for various programming languages: <a href="https://github.com/github/gitignore">https://github.com/github/gitignore</a><br
+/>Here's the one for Python: <a href="https://github.com/github/gitignore/blob/master/Python.gitignore">https://github.com/github/gitignore/blob/master/Python.gitignore</a><br
+/><br
+/>* Version control by example (free ebook) <a href="http://www.ericsink.com/vcbe/">http://www.ericsink.com/vcbe/</a><br
+/><br
+/>* A (shameless plug) for my paper on why Git is important for advancing science.&nbsp;<br
+/><a href="http://www.scfbm.org/content/8/1/7">http://www.scfbm.org/content/8/1/7</a><br
+/><br
+/>* An extremely useful Git cheat sheet -&gt; <a href="http://www.git-tower.com/blog/git-cheat-sheet/">http://www.git-tower.com/blog/git-cheat-sheet/</a><br
+/><br
+/><b>Documentation</b><br
+/><b>===========</b><br
+/><br
+/><br
+/><b>Make and Makefiles</b><br
+/><b>==================</b><br
+/><br
+/><br
+/><b>Python data structures</b><br
+/>* sets and dictionaries can improve the runtime of your code<br
+/><br
+/><b>Python: functions, modules, classes, and objects</b><br
+/>* writing general, adaptable code<br
+/>* classes help to structure the problem<br
+/><br
+/><b>Testing</b><br
+/>* build robust code<br
+/>* gives you confidence to make changes to your code<br
+/>* tool for planning your code<br
+/><br
+/><b>Version Control</b><br
+/>* every change that you make is documented<br
+/>* don't have to keep a lot of copies of your files<br
+/>* takes away the fear of breaking code because you can revert to a working copy<br
+/>* eases collaboration<br
+/><br
+/><br
+/><a href="https://github.com/swcarpentry/boot-camps">https://github.com/swcarpentry/boot-camps</a><br
+/><br
+/><br
+/><br
+/>To get the data and code for this section:<br
+/><br
+/>git clone <a href="https://github.com/bendmorris/make_tutorial.git">https://github.com/bendmorris/make_tutorial.git</a><br
+/><br
+/><br
+/>#step 1: Generate a multiple alignment with muscle<br
+/><br
+/>muscle -in bombycilla_co1.fasta -out bombycilla_co1.fasta.aln<br
+/><br
+/>#step 2: convert the alignment format from FASTA alignment to Phylip format<br
+/>python -c "import Bio.AlignIO; Bio.AlignIO.convert('bombycilla_co1.fasta.aln', 'fasta', 'bombycilla_co1.phy', 'phylip-relaxed')"<br
+/><br
+/>#step 3: Use RAxML to generate a tree from the Phylip format multiple alignment<br
+/><br
+/>raxmlHPC -m GTRCAT -n bombycilla_co1.phy -p 10000 -s bombycilla_co1.phy<br
+/><br
+/>#rename one of the output files, from RAxML, to newick extension<br
+/>mv RAxML_result.bombycilla_co1.phy bombycilla_co1.new<br
+/><br
+/># Step 4: Use a Python script to generate a graphic file (PNG) from the Newick format tree<br
+/>python draw_tree.py bombycilla_co1.new bombycilla_co1.png<br
+/><br
+/># Now lets take a look at how to automate this process using a Makefile<br
+/># Makefiles must have tab characters for the indentation. Spaces will NOT work.<br
+/>target: dependencies<br
+/>&nbsp;&nbsp;&nbsp; commands<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;<br
+/>all: $(patsubst %.fasta, %.png, $(wildcard *.fasta))<br
+/><br
+/># to retain other files generated by the build which are not targets or dependencies you need to use .PRECIOUS:<br
+/>.PRECIOUS: %.fasta.aln %.phy %.new<br
+/><br
+/>clean:<br
+/>&nbsp;&nbsp;&nbsp; rm -f *.aln *.phy *.reduced *.new *.png<br
+/><br
+/># $&lt; : the input file<br
+/># $@ : the output file<br
+/><br
+/># step 1: produce a FASTA alignment<br
+/>%.fasta.aln: %.fasta<br
+/>&nbsp;&nbsp;&nbsp; muscle -in $&lt; -out $@<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;<br
+/># step 2: convert alignment from FASTA to Phylip<br
+/>%.phy: %.fasta.aln<br
+/>&nbsp;&nbsp;&nbsp; python -c "import Bio.AlignIO; Bio.AlignIO.convert('$&lt;', 'fasta', '$@', 'phylip-relaxed')"<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;<br
+/># step 3: create a Newick tree using RAxML<br
+/>%.new: %.phy<br
+/>&nbsp;&nbsp;&nbsp; rm -f RAxML_*<br
+/>&nbsp;&nbsp;&nbsp; raxmlHPC -m GTRCAT -n $&lt; -p 10000 -s $&lt;<br
+/>&nbsp;&nbsp;&nbsp; mv RAxML_result.$&lt; $@<br
+/>&nbsp;&nbsp;&nbsp;&nbsp;<br
+/># step 4: generate an image<br
+/>%.png: %.new draw_tree.py<br
+/>&nbsp;&nbsp;&nbsp; python draw_tree.py $&lt; $@<br
+/><br
+/><br
+/>'Make' syntax to generalise e.g. specific file names to general file names<br
+/>%:&nbsp;&nbsp; wildcard<br
+/>$@ : the target<br
+/>$&lt; : the first dependency<br
+/>$^:&nbsp; all dependencies<br
+/><br
+/><br
+/># Clean up the intermediate files<br
+/>rm -f *.aln *.phy *.reduced RAxML_* *.png *.new<br
+/><br
+/>If you run make with the -j &lt;int&gt; switch it will run the command multithreaded with &lt;int&gt; threads. So running our Makefile with -j 2 will run both command streams at once.<br
+/>I've seen it with -j 64...<br
+/><br
+/>Can redirect output to log file:<br
+/>make &gt; log.txt<br
+/><br
+/><b>================================================================</b><br
+/><b>Collaborative Group Excersises - $50/person for the winning team</b><br
+/><b>================================================================</b><br
+/>Sickle ( <a href="https://github.com/najoshi/sickle">https://github.com/najoshi/sickle</a> ) is a windowed adaptive trimming tool for FASTQ files using quality.<br
+/>As a team, you are tasked with developing a Python-based project implementing some of the features of Sickle. You will then look at the code developed by another team and try to improve their project. In both parts of the excercise you should demonstrate what you have learned over the last 2 days. This might include the use of:<br
+/><ul><li>Version control</li
+><li>Unit tests</li
+><li>Documentation</li
+><li>Automation using Make/Makefiles<br/><br
+/></li></ul
+>Here's what to do:<br
+/>1) Get together in groups of 3<br
+/>2) One of you should setup the repository on github and add the other team members as collaborators so you all have commit privilages to that repo.<br
+/>3) For the first 30min you're only allowed to discuss, write tests and documentation as well as write stub methods/classes. i.e. no real implementation please!<br
+/>&nbsp; a) Think about what features you'll try to implement in the short time you have. For example, do you want to just work on "quality" strings and develop code to do the windowed adaptive trimming on those string. Or do you want to go the whole hog and do FASTQ parsing and output? Will you restrict yourself to just one FASTQ encoding schema such as Phred+33 or Phred+64 or code support for all?<br
+/>&nbsp; b) Think about the documentation/tests a new team might need to find their way around your code and run it, test it etc.<br
+/>&nbsp; c) Decide how you might split the work between the team members<br
+/>4) Before afternoon tea you should have pushed all your code to your github repository<br
+/>5) Tea<a href="https://github.com/bendmorris/make_tutorial.git">https://github.com/bendmorris/make_tutorial.git</a><br
+/>6) The person who setup your repository in step 2 above should perform a github "fork" of another teams project repository (we'll coordinate this below) and add the other members of the team as collaborators.<br
+/>7) Try to understand what the code does by reading the documentation, running test etc.<br
+/>8) Try to improve the project by contributing to the code, documentation and tests.<br
+/><br
+/><b>======================</b><br
+/><b>Coordinating Teams/Projects</b><br
+/><b>======================</b><br
+/>Please enter your team details below using the suggested format. We'll use this info to judge which team wins the prize!!<br
+/>Team: Name1, Name2 and Name3<br
+/>Github Repository URL: &lt;URL&gt;<br
+/>Repository you improved: &lt;URL&gt;<br
+/>======================<br
+/><br
+/>Team 1: Kerensa McElroy, Jocelyn , Pip Griffin<br
+/>Github repository: <a href="https://github.com/KerensaMcElroy/sickle">https://github.com/KerensaMcElroy/sickle</a><br
+/>Fork: <a href="https://github.com/griffinp/vcf-venn">https://github.com/griffinp/vcf-venn</a><br
+/>(from Team 2's repository)<br
+/><br
+/>Team 3: Thomas Coudrat, Adnane Nemri, Philippe Moncuquet<br
+/>Github repository: <a href="https://github.com/thomascoudrat/pySickle_team3">https://github.com/thomascoudrat/pySickle_team3</a><br
+/>Fork: <a href="https://github.com/dvbrown/pythonSickle">https://github.com/dvbrown/pythonSickle</a><br
+/><br
+/>-------------------------------------------------<br
+/>Team 2: Simon Gladman, Charlotte Anderson&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br
+/>Github URL: <a href="https://github.com/Slugger70/vcf-venn">https://github.com/Slugger70/vcf-venn</a><br
+/>Fork: <a href="https://github.com/thomascoudrat/pySickle_team3">https://github.com/thomascoudrat/pySickle_team3</a><br
+/>-------------------------------------------------<br
+/><br
+/>Team 4: Dan and Vincent<br
+/>Github repository: <a href="https://github.com/dvbrown/pythonSickle">https://github.com/dvbrown/pythonSickle</a><br
+/>Fork: <a href="https://github.com/mblue9/oursickle">https://github.com/mblue9/oursickle</a><br
+/><br
+/>Team 5: Jason, Franco &amp; Maria<br
+/>Github repo: <a href="https://github.com/mblue9/oursickle">https://github.com/mblue9/oursickle</a><br
+/>Fork: <a href="https://github.com/Slugger70/vcf-venn">https://github.com/Slugger70/vcf-venn</a><br
+/><br
+/>Team 6: Mark, Yongquing, Ashish and Kirill<br
+/>GitHub repo: <a href="https://github.com/serine13/Awesome_Foursome">https://github.com/serine13/Awesome_Foursome</a><br
+/>Fork: <a href="https://github.com/Sanyk28/Sickle201310">https://github.com/Sanyk28/Sickle201310</a><br
+/><br
+/>Team 7: Brett &amp; Min<br
+/>Github repo: <a href="https://github.com/Sanyk28/Sickle201310">https://github.com/Sanyk28/Sickle201310</a><br
+/>Fork: <a href="https://github.com/andersgs/sickle_team8">https://github.com/andersgs/sickle_team8</a><br
+/><br
+/>Team 8: Jane, Adam, Hernan and Anders<br
+/>Github repo: <a href="https://github.com/andersgs/sickle_team8">https://github.com/andersgs/sickle_team8</a><br
+/>Fork: <a href="https://github.com/vertical-space/sickle">https://github.com/vertical-space/sickle</a><br
+/>Fork: <a href="https://github.com/Adamtaranto/sickle_team8">https://github.com/Adamtaranto/sickle_team8</a><br
+/><br
+/>Team 9: Chris, Chamath, Anuja, Chandi<br
+/>Github repo: <a href="https://github.com/vertical-space/sickle">https://github.com/vertical-space/sickle</a><br
+/>Fork: <a href="https://github.com/KerensaMcElroy/sickle">https://github.com/KerensaMcElroy/sickle</a><br
+/>&nbsp;<br
+/><br
+/></body>
+</html>
